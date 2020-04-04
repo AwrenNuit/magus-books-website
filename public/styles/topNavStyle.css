@@ -1,14 +1,42 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Forum", sans-serif;
+}
 
-    #header {height: 161px;}
-    #header .divlogo {height: auto; overflow: hidden; float: left; width: auto;}
-    #header .divlogo .logo-wrap {width: auto;}
-    #header .divlogo .logo-wrap .logo-img {max-height: 161px; max-width: 670px;}
-    #header .divlogo .logo-wrap .logo-img img {max-width: 670px; max-height: 161px;}
+p {
+  font-family: "Gafata", "PT Sans", sans-serif;
+}
+
+ul {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.banner-image {
+  background-image: url("../images/added/Magus_Banner_2.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 2;
+  height: 161px;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: 161px auto;
+}
+
+.logo-img {
+  grid-column: 1;
+  max-height: 670px;
+  max-width: 161px;
+}
+
+
+
+
 
     #topnav {width: 100%; height: 30px; float: left; margin: 0 auto;}
 
     #topnav ul.topnavmenu {list-style: none; margin: 0; padding: 0; text-align: center;}
-    #topnav ul.topnavmenu li {display: inline; /*float: none;*/ line-height: 30px;}
+    #topnav ul.topnavmenu li {display: inline; line-height: 30px;}
     #topnav ul.topnavmenu li.divide {margin: 0 30px;}
     #topnav ul.topnavmenu li a {text-transform: uppercase;}
 
@@ -16,29 +44,6 @@
 	background-color: #CFCFCF;
 	background-image: url(../images/mainnav-bg.gif);
 	background-repeat: repeat-x;
-}
-
-/* My Additions */
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Forum", sans-serif;
-}
-p {
-    font-family: "Gafata", "PT Sans", sans-serif;
-}
-ul {
-    font-family: "Cinzel Decorative", cursive;
-}
-.headerTable {
-    border-collapse: collapse;
-    width: 100%;
-    border: 0px solid black;
-}
-.bannerImage {
-    height: 161px;
-    background-size: cover;
-    background-image: url("../images/added/Magus_Banner_2.jpg");
-    background-position: center;
 }
 
 .navDiv {
