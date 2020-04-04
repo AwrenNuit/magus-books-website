@@ -80,59 +80,72 @@ body {
     font-style: italic;
 }
 
-.serviceContainerDiv {
-    max-width: 100%;
-    background-image: url("../images/added/Godrays.jpeg");
-    background-position: center;
-    background-size: cover;
-    padding: 15px;
-    overflow: hidden;
-    font-weight: 900;
+
+
+
+
+/* Services */
+.service-container {
+  background-image: url("../images/added/Godrays.jpeg");
+  background-position: center;
+  background-size: cover;
+  font-weight: 900;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 15px;
 }
 
-.serviceDiv {
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    width: 75%;
-    background: rgba(189, 200, 204, .7);
-    overflow: hidden;
+.service-div {
+  background: rgba(189, 200, 204, .7);
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
 }
 
-.serviceInfoDiv {
-    margin: auto;
-    text-align: center;
-    width: 100%;
+.service-info-div {
+  margin: auto;
 }
 
-.serviceTable {
-    margin: auto;
-    width: 100%;
-    border-collapse: collapse;
+.service-paragraph-container {
+  display: inline-block;
+  margin: -5px 0;
+  max-width: 400px;
+  padding-left: 10px;
+  text-align: left;
 }
 
-.serviceTableSub {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    padding: 15px 0;
+.service-grid-container {
+  display: grid;
+  grid-template-columns: 300px auto;
 }
 
-.serviceTableImg {
-    width: 300px;
+.service-img {
+  grid-column: 1;
 }
 
-.wholesaleDiv {
-    text-align: center;
-    padding: 10px;
+.service-img img {
+  margin-left: 30px;
+  width: 300px;
 }
 
+.service-summary-academy {
+  grid-column: 2;
+  padding: 20px 60px;
+  text-align: left;
+}
 
+.service-summary-healing {
+  grid-column: 2;
+  padding: 70px 60px;
+  text-align: left;
+}
 
-
-
-
-
+.wholesale-div {
+  margin-top: 30px;
+  padding: 10px;
+}
 
 /* Blog */
 .blog-div {
@@ -162,6 +175,10 @@ body {
   grid-column: 3;
   height: 300px;
 }
+
+
+
+
 
 /* CYBER MONDAY SALE */
 .cyberDiv {
