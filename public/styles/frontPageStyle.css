@@ -1,11 +1,13 @@
-/* FRONT PAGE STUFF */
-
-body {margin: 0;}
+/* HTML elements */
+body {
+  margin: 0;
+}
 
 .containerDiv {
     width: 100%;
     background-color: black;
 }
+
 .openingDiv {
     background-image: url("../images/added/CurvedSky.jpeg");
     height: 500px;
@@ -15,6 +17,7 @@ body {margin: 0;}
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .monthTable {
     margin: auto;
     width: 75%;
@@ -22,6 +25,7 @@ body {margin: 0;}
     padding: 30px;
     text-align: center;
 }
+
 .monthTableSub {
     /*border-collapse: collapse;*/
     margin: auto;
@@ -29,13 +33,16 @@ body {margin: 0;}
     padding-left: 15%;
     text-align: center;
 }
+
 .bookMonthImg {
     width: 400px;
 }
+
 .subMonthImg {
     width: 100px;
     border-radius: 75%;
 }
+
 .midDiv {
     background-image: url("../images/added/Moons.jpeg");
     height: 500px;
@@ -45,28 +52,34 @@ body {margin: 0;}
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .astrologyDiv {
     width: 100%;
     color:#ffffff;
     background-color: #4e2074;
     overflow: hidden;
 }
+
 .astrologyTable {
     margin: auto;
     width: 75%;
     text-align: center;
     padding: 20px;
 }
+
 .astrologyTable td {
     padding: 20px;
 }
+
 .astrologyImg {
     height: 300px;
 }
+
 .astroFootnotes {
     font-size: 75%;
     font-style: italic;
 }
+
 .serviceContainerDiv {
     max-width: 100%;
     background-image: url("../images/added/Godrays.jpeg");
@@ -76,58 +89,78 @@ body {margin: 0;}
     overflow: hidden;
     font-weight: 900;
 }
+
 .serviceDiv {
     margin: auto;
     text-align: center;
     padding: 10px;
     width: 75%;
     background: rgba(189, 200, 204, .7);
-
     overflow: hidden;
 }
+
 .serviceInfoDiv {
     margin: auto;
     text-align: center;
     width: 100%;
 }
+
 .serviceTable {
     margin: auto;
     width: 100%;
     border-collapse: collapse;
 }
+
 .serviceTableSub {
     margin: auto;
     width: 100%;
     text-align: center;
     padding: 15px 0;
 }
+
 .serviceTableImg {
     width: 300px;
 }
+
 .wholesaleDiv {
     text-align: center;
     padding: 10px;
 }
-.blogDiv {
-    text-align: center;
-    width: 100%;
+
+
+
+
+
+
+
+
+/* Blog */
+.blog-div {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
-.blogTable {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white;
+
+.blog-content {
+  grid-column: 2;
+  padding: 0 10px;
 }
-.blogTableImgLeft {
-    height: 300px;
-    background-image: url("../images/added/Awalk.jpeg");
-    background-position: center;
-    background-size: cover;
+
+.blog-img-left {
+  background-image: url("../images/added/Awalk.jpeg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 1;
+  height: 300px;
 }
-.blogTableImgRight {
-    height: 300px;
-    background-image: url("../images/added/Flowermagic.jpeg");
-    background-position: center;
-    background-size: cover;
+
+.blog-img-right {
+  background-image: url("../images/added/Flowermagic.jpeg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 3;
+  height: 300px;
 }
 
 /* CYBER MONDAY SALE */
@@ -146,6 +179,7 @@ body {margin: 0;}
     background-size: cover;
     background-position: center;
 }
+
 .promoImg {
     width: 75%;
     max-width: 75%;
@@ -154,6 +188,7 @@ body {margin: 0;}
     margin: auto;
     overflow: hidden;
 }
+
 /* Game of Saturn Promotion */
 .saturnTable {
     width: 80%;
@@ -161,6 +196,7 @@ body {margin: 0;}
     text-align: center;
     color: white;
 }
+
 .gameSaturn {
     max-width: 100%;
 }
