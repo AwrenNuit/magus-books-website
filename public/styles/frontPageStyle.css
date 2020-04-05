@@ -264,17 +264,20 @@ body {
   background-color: #4e2074;
   border: none;
   color: white;
-  display: inline-block;
+  cursor: pointer;
   font-family: "Forum", sans-serif;
   font-size: 16px;
   padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
 .button:hover {
   background-color: black;
+  box-shadow: 0 0 5px grey;
   color: #f6c83a;
+}
+
+.button:active {
+  box-shadow: 0 0 10px black;
 }
