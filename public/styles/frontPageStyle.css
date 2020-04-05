@@ -1,4 +1,8 @@
-/* HTML elements */
+/* HTML Elements */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -267,107 +271,97 @@ body {
 
 /* Buttons */
 .button {
-    background-color: #4e2074;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: "Forum", sans-serif;
-
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+  background-color: #4e2074;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Forum", sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
+
 .button:hover {
-    color: #f6c83a;
-    background-color: black;
+  color: #f6c83a;
+  background-color: black;
 }
 
-/* SLIDER */
-* {box-sizing:border-box}
-
-/* Slideshow container */
+/* Slider */
 .slideshow-container {
-  max-width: auto;
-  position: relative;
-  margin: auto;
-  min-height: 200px;
   max-height: 400px;
+  max-width: auto;
+  min-height: 200px;
+  position: relative;
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
+.my-slides {
+  display: none;
 }
 
-/* Next & previous buttons */
+.my-slides img {
+  width: 100%;
+  min-height: 200px;
+}
+
 .prev, .next {
+  border-radius: 0 3px 3px 0;
+  color: white;
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
+  font-size: 18px;
+  font-weight: bold;
   margin-top: -22px;
   padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  transition: 0.6s ease;
+  top: 50%;
 }
 
-/* The dots/bullets/indicators */
+.next {
+  border-radius: 3px 0 0 3px;
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(78, 32, 116, 0.397);
+  font-size: 1.7em;
+}
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
+  cursor: pointer;
   display: inline-block;
+  height: 15px;
+  margin: 0 2px;
   transition: background-color 0.6s ease;
+  -webkit-transition: background-color 0.6s ease;
+  width: 15px;
 }
 
-.dotPosition {
-    text-align:center;
-    width: 100%;
-    bottom: 7px;
-    position: absolute;
+.dot-position {
+  bottom: 7px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 .active, .dot:hover {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
   animation-duration: 1.5s;
+  animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 @-webkit-keyframes fade {
@@ -375,10 +369,16 @@ body {
   to {opacity: 1}
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+/* NOT CURRENTLY USED: Caption text */
+/* .text {
+  bottom: 8px;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+} */
 
 /* Text for Scrolling Banner */
 .incenseAdText {

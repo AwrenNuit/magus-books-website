@@ -85,19 +85,16 @@
 
     <!-- Front Page Edits -->
     <div class="container-div">
-      <!-- •••• BANNER DIV •••• -->
+      <!-- Banner Image -->
       <div class="opening-div"></div>
 
-      <!-- SLIDER -->
+      <!-- •••• SLIDER •••• -->
       <div class="slideshow-container">
 
         <!-- Dvergers Anvil -->
-        <div class="mySlides fade" style="display: block;">
-          <img
-            src="images/added/dvergers.jpg"
-            style="width: 100%; min-height: 200px;"
-          />
-          <div style="position: absolute; bottom: 12%; right: 50%;">
+        <div class="my-slides fade">
+          <img src="images/added/dvergers.jpg" />
+          <div style="position:absolute; bottom:12%; right:50%;">
             <button type="button" class="button" onclick="openDvergers()">
               Buy Now
             </button>
@@ -105,17 +102,14 @@
         </div>
 
         <!-- Beverley Classes -->
-        <div class="mySlides fade" style="display: none;">
-          <img
-            src="images/added/drBev.jpg"
-            style="width: 100%; min-height: 200px;"
-          />
-          <div style="position: absolute; bottom: 10%; right: 50%;">
+        <div class="my-slides fade">
+          <img src="images/added/drBev.jpg" />
+          <div style="position:absolute; bottom:10%; right:50%;">
             <button type="button" class="button" onclick="openSacredWaters()">
               $20 Register
             </button>
           </div>
-          <div style="position: absolute; bottom: 10%; right: 12%;">
+          <div style="position:absolute; bottom:10%; right:12%;">
             <button type="button" class="button" onclick="openFearNoEvil()">
               $25 Register
             </button>
@@ -123,66 +117,49 @@
         </div>
 
         <!-- Restore Yoga -->
-        <!-- <div class="mySlides fade" >
-                  <img src="images/added/restoreYoga.jpg" style="width:100%; min-height: 200px;">
-                  <div style="position: absolute; bottom: 10%; right: 10%;">
-                      <button type="button" class="button" onclick="openRestoreYoga()">Register</button>
-                  </div>
-              </div>
-   -->
+        <!-- <div class="my-slides fade" >
+            <img src="images/added/restoreYoga.jpg" />
+            <div style="position:absolute; bottom:10%; right:10%;">
+                <button type="button" class="button" onclick="openRestoreYoga()">Register</button>
+            </div>
+        </div> -->
+  
         <!-- Herbal Program -->
-        <div class="mySlides fade" style="display: none;">
-          <img
-            src="images/added/herbalProgramBanner.jpg"
-            style="width: 100%; min-height: 200px;"
-          />
-          <div style="position: absolute; bottom: 10%; right: 19%;">
+        <div class="my-slides fade">
+          <img src="images/added/herbalProgramBanner.jpg" />
+          <div style="position:absolute; bottom:10%; right:19%;">
             <button type="button" class="button" onclick="openHerbalProgram()">
-              Learn More Here
+              Learn More
             </button>
           </div>
         </div>
 
         <!-- Swamp Witch Stephanie -->
-        <div class="mySlides fade" style="display: none;">
-          <img
-            src="images/added/swampWitchStephanie.jpg"
-            style="width: 100%; min-height: 200px;"
-          />
+        <div class="my-slides fade">
+          <img src="images/added/swampWitchStephanie.jpg" />
         </div>
 
         <!-- Belly Dancing Class -->
-        <!-- <div class="mySlides fade" >
-                  <img src="images/added/bellyDanceAlana.jpg" style="width:100%; min-height: 200px;">
-              </div> -->
+        <!-- <div class="my-slides fade" >
+            <img src="images/added/bellyDanceAlana.jpg" />
+        </div> -->
 
-        <!-- The dots/circles -->
-        <div class="dotPosition">
+        <!-- Dots/Circles -->
+        <div class="dot-position">
           <span class="dot active" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
           <span class="dot" onclick="currentSlide(4)"></span>
           <!-- <span class="dot" onclick="currentSlide(5)"></span> 
-                  <span class="dot" onclick="currentSlide(6)"></span>
-                  <span class="dot" onclick="currentSlide(7)"></span>
-                  <span class="dot" onclick="currentSlide(8)"></span> -->
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span> -->
         </div>
 
-        <!-- Next and previous buttons -->
+        <!-- Next and Previous Buttons -->
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <!-- •••• END BANNER DIV •••• -->
-
-
-
-
-
-
-
-
-
-
 
       <!-- •••• MONTHLY DIV •••• -->
       <div class="month-container">
@@ -364,7 +341,7 @@
                   soothing herbs to lull you into dreamland? 
                   Seeking a new tome to get lost in?
                 </p>
-                <p style="text-align:center">
+                <p style="text-align:center;">
                   <a href="https://www.magusbooks.com/store_page.asp">
                     Click here
                   </a>
@@ -557,8 +534,8 @@
         window.open("https://www.magusbooks.com/Drinking-Vessels/products/42/");
       }
 
-      //SLIDER SCRIPT
-      var slideIndex = 1;
+      //SLIDER SCRIPT //
+      let slideIndex = 1;
       showSlides(slideIndex);
 
       // Next/previous controls
@@ -572,19 +549,18 @@
       }
 
       function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
+        const slides = document.getElementsByClassName("my-slides");
+        let dots = document.getElementsByClassName("dot");
         if (n > slides.length) {
           slideIndex = 1;
         }
         if (n < 1) {
           slideIndex = slides.length;
         }
-        for (i = 0; i < slides.length; i++) {
+        for (let i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
+        for (let i = 0; i < dots.length; i++) {
           dots[i].className = dots[i].className.replace(" active", "");
         }
         slides[slideIndex - 1].style.display = "block";
