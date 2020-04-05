@@ -1,4 +1,4 @@
-/* HTML elements */
+/* HTML Elements */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Forum", sans-serif;
 }
@@ -37,11 +37,11 @@ p {
 }
 
 .dropdown-content {
+  background-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.555);
   display: none;
   position: absolute;
-  background-color: black;
   width: 161px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.555);
 }
 
 .dropdown-content a {
@@ -54,15 +54,15 @@ p {
 }
 
 .nav-container {
+  background-color: black;
   font-family: "Cinzel Decorative", cursive;
   overflow: hidden;
-  background-color: black;
   width: 100vw;
 }
 
 .nav-container a, .dropdown-item {
-  display: inline-block;
   color: #f6c83a;
+  display: inline-block;
   padding: 14px 16px;
   text-decoration: none;
   transition-duration: 0.4s;
@@ -70,6 +70,6 @@ p {
 }
 
 .nav-container a:hover, .dropdown:hover .dropdown-item {
-  color: white;
   background-color: #4e2074;
+  color: white;
 }
