@@ -23,272 +23,6 @@ body {
   height: 500px;  
 }
 
-/* Monthly Features */
-.month-container {
-  margin: auto;
-  width: 75%;
-  background-color: #e0ebf0;
-  padding: 10px;
-  text-align: center;
-}
-
-.month-main-feature {
-  display: grid;
-  grid-template-columns: 400px auto;
-  margin-top: 90px;
-}
-
-.month-main-feature img {
-  grid-column: 1;
-  padding-bottom: 20px;
-  width: 400px;
-}
-
-.month-main-summary {
-  grid-column: 2;
-  padding: 30px 50px 0 0;
-}
-
-.month-main-summary p {
-  padding-bottom: 50px;
-}
-
-.month-sub-feature {
-  border: 0.5px solid grey;
-  border-radius: 20px;
-  margin: 30px;
-  padding: 20px;
-  max-width: 40%;
-  min-height: 400px;
-}
-
-.month-sub-feature-box {
-  display: flex;
-}
-
-.month-sub-feature img {
-  width: 200px;
-  border-radius: 50%;
-}
-
-.month-sub-img {
-  align-self: center;
-  margin-left: 10px;
-}
-
-.month-sub-summary {
-  grid-column: 2;
-  margin: 10px;
-  text-align: left;
-  align-self: center;
-}
-
-.month-sub-summary h3 {
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-.midDiv {
-    background-image: url("../images/added/Moons.jpeg");
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.astrologyDiv {
-    width: 100%;
-    color: white;
-    background-color: #4e2074;
-    overflow: hidden;
-}
-
-.astrologyTable {
-    margin: auto;
-    width: 75%;
-    text-align: center;
-    padding: 20px;
-}
-
-.astrologyTable td {
-    padding: 20px;
-}
-
-.astrologyImg {
-    height: 300px;
-}
-
-.astroFootnotes {
-    font-size: 75%;
-    font-style: italic;
-}
-
-
-
-
-
-/* Services */
-.service-container {
-  background-image: url("../images/added/Godrays.jpeg");
-  background-position: center;
-  background-size: cover;
-  font-weight: 900;
-  width: 100%;
-  overflow: hidden;
-  padding: 40px 0;
-}
-
-.service-div {
-  background: rgba(189, 200, 204, .7);
-  margin: auto;
-  overflow: hidden;
-  padding: 10px;
-  text-align: center;
-  width: 75%;
-}
-
-.service-info-div {
-  margin: auto;
-}
-
-.service-paragraph-container {
-  display: inline-block;
-  margin: -5px 0;
-  max-width: 400px;
-  padding-left: 10px;
-  text-align: left;
-}
-
-.service-grid-container {
-  display: grid;
-  grid-template-columns: 300px auto;
-}
-
-.service-img {
-  grid-column: 1;
-}
-
-.service-img img {
-  margin-left: 30px;
-  width: 300px;
-}
-
-.service-summary-academy {
-  grid-column: 2;
-  padding: 20px 60px;
-  text-align: left;
-}
-
-.service-summary-healing {
-  grid-column: 2;
-  padding: 60px 60px;
-  text-align: left;
-}
-
-.wholesale-div {
-  margin-top: 30px;
-  padding: 10px;
-}
-
-/* Blog */
-.blog-div {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-}
-
-.blog-content {
-  grid-column: 2;
-  padding: 0 10px;
-}
-
-.blog-img-left {
-  background-image: url("../images/added/Awalk.jpeg");
-  background-position: center;
-  background-size: cover;
-  grid-column: 1;
-  height: 300px;
-}
-
-.blog-img-right {
-  background-image: url("../images/added/Flowermagic.jpeg");
-  background-position: center;
-  background-size: cover;
-  grid-column: 3;
-  height: 300px;
-}
-
-
-
-
-
-/* CYBER MONDAY SALE */
-.cyberDiv {
-    text-align: center;
-    background-color: white;
-    padding: 40px 0;
-}
-
-/* PROMOTIONS */
-.promoDiv {
-    width: 100%;
-    margin: auto;
-    /* background-color: #a3ccda */
-    background-image: url("../images/added/MarchMHCBackground.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.promoImg {
-    width: 75%;
-    max-width: 75%;
-    height: auto;
-    display: block;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Game of Saturn Promotion */
-.saturnTable {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    color: white;
-}
-
-.gameSaturn {
-    max-width: 100%;
-}
-
-/* Buttons */
-.button {
-  background-color: #4e2074;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: "Forum", sans-serif;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-
-.button:hover {
-  color: #f6c83a;
-  background-color: black;
-}
-
 /* Slider */
 .slideshow-container {
   max-height: 400px;
@@ -369,131 +103,178 @@ body {
   to {opacity: 1}
 }
 
-/* NOT CURRENTLY USED: Caption text */
-/* .text {
-  bottom: 8px;
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
+/* Monthly Features */
+.month-container {
+  margin: auto;
+  width: 75%;
+  background-color: #e0ebf0;
+  padding: 10px;
   text-align: center;
+}
+
+.month-main-feature {
+  display: grid;
+  grid-template-columns: 400px auto;
+  margin-top: 90px;
+}
+
+.month-main-feature img {
+  grid-column: 1;
+  padding-bottom: 20px;
+  width: 400px;
+}
+
+.month-main-summary {
+  grid-column: 2;
+  padding: 30px 50px 0 0;
+}
+
+.month-main-summary p {
+  padding-bottom: 50px;
+}
+
+.month-sub-feature {
+  border: 0.5px solid grey;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px;
+  max-width: 40%;
+  min-height: 400px;
+}
+
+.month-sub-feature-box {
+  display: flex;
+}
+
+.month-sub-feature img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.month-sub-img {
+  align-self: center;
+  margin-left: 10px;
+}
+
+.month-sub-summary {
+  grid-column: 2;
+  margin: 10px;
+  text-align: left;
+  align-self: center;
+}
+
+.month-sub-summary h3 {
+  text-align: center;
+}
+
+/* Services */
+.service-container {
+  background-image: url("../images/added/Godrays.jpeg");
+  background-position: center;
+  background-size: cover;
+  font-weight: 900;
   width: 100%;
-} */
-
-/* Text for Scrolling Banner */
-.incenseAdText {
-    width: 60%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(0, -50%);
-    padding: 0 30px;
-    height: 100%;
-    overflow: hidden;
-    
-}
-.incenseAdText p {
-    font-size: 120%;
-}
-.TStarAdText {
-    width: 50%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    right: 30%;
-    transform: translate(50%, -50%);
-    padding: 0 30px;
-    height: 100%;
-    overflow: hidden;
-    color: white;
-}
-.fundText {
-    width: 30%;
-    text-align: center;
-    position: absolute;
-    top: 100%;
-    right: 20%;
-    transform: translate(50%, -50%);
-    padding: 0 30px;
-    height: 100%;
-    overflow: hidden;
-    
+  overflow: hidden;
+  padding: 40px 0;
 }
 
-/* FUNDRAISER PROMO */
-/* .container {
-    position: relative;
-    width: 100%;
+.service-div {
+  background: rgba(189, 200, 204, .7);
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
 }
-.fPromoImg {
-    width: 100%;
-    height: auto;
-    display: block;
+
+.service-info-div {
+  margin: auto;
 }
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height:0;
-    transition: .5s ease;
+
+.service-paragraph-container {
+  display: inline-block;
+  margin: -5px 0;
+  max-width: 400px;
+  padding-left: 10px;
+  text-align: left;
 }
-.fPromoImg:hover .overlay {
-    bottom: 0;
-    height: 100%;
-}*/
-.fPromoText {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-} 
-.container {
-    position: relative;
-    width: 100%;
+
+.service-grid-container {
+  display: grid;
+  grid-template-columns: 300px auto;
 }
-  
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
+
+.service-img {
+  grid-column: 1;
 }
-  
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: rgba(70, 13, 70, 0.8);
-    overflow: hidden;
-    width: 100%;
-    height:0;
-    transition: .5s ease;
+
+.service-img img {
+  margin-left: 30px;
+  width: 300px;
 }
-  
-.container:hover .overlay {
-    bottom: 0;
-    height: 100%;
+
+.service-summary-academy {
+  grid-column: 2;
+  padding: 20px 60px;
+  text-align: left;
 }
-  
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .buttonBottom {
-        bottom: 10%;
-  }
+
+.service-summary-healing {
+  grid-column: 2;
+  padding: 60px 60px;
+  text-align: left;
+}
+
+.wholesale-div {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+/* Blog */
+.blog-div {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.blog-content {
+  grid-column: 2;
+  padding: 60px 10px;
+}
+
+.blog-img-left {
+  background-image: url("../images/added/Awalk.jpeg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 1;
+  height: 300px;
+}
+
+.blog-img-right {
+  background-image: url("../images/added/Flowermagic.jpeg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 3;
+  height: 300px;
+}
+
+/* Buttons */
+.button {
+  background-color: #4e2074;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Forum", sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  color: #f6c83a;
+  background-color: black;
+}

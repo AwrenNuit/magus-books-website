@@ -1,0 +1,211 @@
+/* Mid-page Background Image */
+.midDiv {
+  background-attachment: fixed;
+  background-image: url("../images/added/Moons.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+/* Astrology Stuff */
+.astrologyDiv {
+  background-color: #4e2074;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+}
+
+.astrologyTable {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  width: 75%;
+}
+
+.astrologyTable td {
+  padding: 20px;
+}
+
+.astrologyImg {
+  height: 300px;
+}
+
+.astroFootnotes {
+  font-size: 75%;
+  font-style: italic;
+}
+
+/* Cyber Monday Sale */
+.cyberDiv {
+  background-color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Promotions */
+.promoDiv {
+  /* background-color: #a3ccda */
+  background-image: url("../images/added/MarchMHCBackground.png");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+}
+
+.promoImg {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 75%;
+  overflow: hidden;
+  width: 75%;
+}
+
+/* Game of Saturn Promotion */
+.saturnTable {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.gameSaturn {
+  max-width: 100%;
+}
+
+/* Caption text */
+.text {
+  bottom: 8px;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/* Text for Scrolling Banner */
+.incenseAdText {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  padding: 0 30px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 60%;
+}
+
+.incenseAdText p {
+  font-size: 120%;
+}
+
+.TStarAdText {
+  color: white;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 30px;
+  position: absolute;
+  right: 30%;
+  text-align: center;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 50%;
+}
+
+.fundText {
+  height: 100%;
+  overflow: hidden;
+  padding: 0 30px;
+  position: absolute;
+  right: 20%;
+  text-align: center;
+  top: 100%;
+  transform: translate(50%, -50%);
+  width: 30%;
+}
+
+
+/* Fundraiser Promo */
+/* .container {
+  position: relative;
+  width: 100%;
+}
+
+.fPromoImg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.overlay {
+  background-color: #008CBA;
+  bottom: 100%;
+  height:0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  transition: .5s ease;
+  width: 100%;
+}
+
+.fPromoImg:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}*/
+
+.fPromoText {
+  color: white;
+  font-size: 20px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+} 
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(70, 13, 70, 0.8);
+  bottom: 100%;
+  height:0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  transition: .5s ease;
+  width: 100%;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.buttonBottom {
+  bottom: 10%;
+}
