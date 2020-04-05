@@ -1,0 +1,59 @@
+/* HTML Elements */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.healingDiv {
+  margin: auto;
+  width: 25%;
+}
+.healingDiv img {width: 200px; margin: auto; display: block;}
+
+.titleDiv {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+.tableDiv {
+  width: 75%;
+  margin: auto;
+}
+.classyTable {
+  text-align: center;
+}
+.classyTable td {
+  vertical-align: top;
+  padding: 3%;
+}
+.tableImg {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+}
+.bookeoDiv {
+  width: 75%;
+  margin: auto;
+}
+
+/* Promotions */
+.promoDiv {
+  width: 100%;
+  margin: auto;
+  background-color: #274e80;
+  /* background-image: url("../images/added/MarchMHCBackground.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+.promoImg {
+  width: 75%;
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+}
