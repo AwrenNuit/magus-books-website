@@ -3,45 +3,92 @@ body {
   margin: 0;
 }
 
-.containerDiv {
-    width: 100%;
-    background-color: black;
+/* Main Container */
+.container-div {
+  background-color: black;
+  width: 100%;
 }
 
-.openingDiv {
-    background-image: url("../images/added/CurvedSky.jpeg");
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Main Background */
+.opening-div {
+  background-attachment: fixed;
+  background-image: url("../images/added/CurvedSky.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;  
 }
 
-.monthTable {
-    margin: auto;
-    width: 75%;
-    background-color: #eaeef0;
-    padding: 30px;
-    text-align: center;
+/* Monthly Features */
+.month-container {
+  margin: auto;
+  width: 75%;
+  background-color: #e0ebf0;
+  padding: 10px;
+  text-align: center;
 }
 
-.monthTableSub {
-    /*border-collapse: collapse;*/
-    margin: auto;
-    width: 100%;
-    padding-left: 15%;
-    text-align: center;
+.month-main-feature {
+  display: grid;
+  grid-template-columns: 400px auto;
+  margin-top: 90px;
 }
 
-.bookMonthImg {
-    width: 400px;
+.month-main-feature img {
+  grid-column: 1;
+  padding-bottom: 20px;
+  width: 400px;
 }
 
-.subMonthImg {
-    width: 100px;
-    border-radius: 75%;
+.month-main-summary {
+  grid-column: 2;
+  padding: 30px 50px 0 0;
 }
+
+.month-main-summary p {
+  padding-bottom: 50px;
+}
+
+.month-sub-feature {
+  border: 0.5px solid grey;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px;
+  max-width: 40%;
+  min-height: 400px;
+}
+
+.month-sub-feature-box {
+  display: flex;
+}
+
+.month-sub-feature img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.month-sub-img {
+  align-self: center;
+  margin-left: 10px;
+}
+
+.month-sub-summary {
+  grid-column: 2;
+  margin: 10px;
+  text-align: left;
+  align-self: center;
+}
+
+.month-sub-summary h3 {
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 .midDiv {
     background-image: url("../images/added/Moons.jpeg");
@@ -55,7 +102,7 @@ body {
 
 .astrologyDiv {
     width: 100%;
-    color:#ffffff;
+    color: white;
     background-color: #4e2074;
     overflow: hidden;
 }
@@ -90,9 +137,9 @@ body {
   background-position: center;
   background-size: cover;
   font-weight: 900;
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
-  padding: 15px;
+  padding: 40px 0;
 }
 
 .service-div {
@@ -138,7 +185,7 @@ body {
 
 .service-summary-healing {
   grid-column: 2;
-  padding: 70px 60px;
+  padding: 60px 60px;
   text-align: left;
 }
 
