@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0;
+} 
+.centerDiv {
+  width: 75%;
+  margin: auto;
+}
+.centerText {
+  text-align: center;
+}
+leftText {
+  text-align: left;
+}
+.topIMG {
+
+}
+.fullIMG1 {
+  background-image: url("../images/added/herbs1.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fullIMG2 {
+  background-image: url("../images/added/herbs2.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.programTable {
+  width: 100%;
+  text-align: center;
+}
+.programTable td {
+  vertical-align: top;
+  padding: 3%;
+}
+.tableIMG {
+  max-width:100%;
+}
