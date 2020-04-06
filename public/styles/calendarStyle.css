@@ -11,24 +11,23 @@ body {
 /* Main Container */
 .container-div {
   background-color: black;
+  background-image: url("../images/added/CurvedSky.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 
-/* Main Background */
-.opening-div {
-  background-attachment: fixed;
-  background-image: url("../images/added/CurvedSky.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;  
-}
-
-.calendar-div {
-  height: 800px;
+/* Content Container */
+.calendar-container {
+  background-color: #e0ebf0;
+  margin: auto;
+  padding: 10px;
   text-align: center;
+  width: 75%;
 }
 
-.calendar-div img {
-  width: 80%;
+/* Main Content */
+.calendar-container img {
+  max-width: 95%;
+  margin-bottom: 20px;
 }
