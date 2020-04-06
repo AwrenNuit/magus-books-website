@@ -1,0 +1,14 @@
+body {margin: 0;}
+
+.formDiv {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+.wholesaleForm {
+    width: 50%;
+    margin: auto;
+}
+input[type=text] {
+        width: 100%;
+    }
