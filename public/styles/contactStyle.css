@@ -1,27 +1,48 @@
-/* CONTACT US PAGE STUFF */
-body {margin: 0;}
+/* HTML Elements */
+* {
+  box-sizing: border-box;
+}
 
-.heading {
-    text-align: center;
+body {
+  margin: 0;
 }
-#map {
-    margin: auto;
-    width: 75%;
-    height: 400px;
-    background: black;
+
+/* Main Container */
+.container-div {
+  background-color: black;
+  width: 100%;
 }
-.contactTable {
-    width: 75%;
-    margin: auto;
-    text-align: center;
+
+/* Main Background */
+.opening-div {
+  background-attachment: fixed;
+  background-image: url("../images/added/CurvedSky.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;  
 }
-.temp {
-    color: red;
+
+/* Content Container */
+.contact-container {
+  background-color: #e0ebf0;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
 }
-.strike {
-    text-decoration: line-through;
-    text-decoration-color: red;
+
+/* Main Content */
+.contact-address, .contact-hours {
+  margin-bottom: 30px;
 }
-.bold {
-    font-weight: 900;
+
+.contact-flex {
+  display: flex;
+  margin: 30px;
+  text-align: left;
+}
+
+.contact-summary {
+  margin: 50px;
 }
