@@ -8,21 +8,36 @@ body {
 }
 
 
-.healingDiv {
-  margin: auto;
+.healing-div {
+  margin: 0 auto;
   width: 25%;
 }
-.healingDiv img {width: 200px; margin: auto; display: block;}
 
-.titleDiv {
+.healing-div img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.title-div {
+  margin: 0 auto;
   text-align: center;
   width: 75%;
-  margin: auto;
 }
-.tableDiv {
+
+.healing-closed {
+  background-color: #ffe7e7;
+  border: 2px solid red;
+  text-align: center;
+  width: 75%;
+  margin: 30px auto;
+}
+
+.table-div {
   width: 75%;
   margin: auto;
 }
+
 .classyTable {
   text-align: center;
 }
@@ -41,19 +56,20 @@ body {
 }
 
 /* Promotions */
-.promoDiv {
-  width: 100%;
-  margin: auto;
+.promo-div {
   background-color: #274e80;
   /* background-image: url("../images/added/MarchMHCBackground.jpg"); */
   background-size: cover;
   background-position: center;
-}
-.promoImg {
-  width: 75%;
-  max-width: 75%;
-  height: auto;
-  display: block;
   margin: auto;
+  width: 100%;
+}
+
+.promo-img {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 75%;
   overflow: hidden;
+  width: 75%;
 }
