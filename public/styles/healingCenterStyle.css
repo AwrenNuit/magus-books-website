@@ -101,9 +101,20 @@ body {
 }
 
 /* Booking Appointments */
-.bookeoDiv {
+.appointment-container {
+  border: 2px solid black;
+  display: inline-block;
   width: 75%;
+}
+
+.appointment-center {
+  text-align: center;
+  margin: 30px;
+}
+
+.bookeo-div {
   margin: auto;
+  width: 75%;
 }
 
 /* Promotions */
