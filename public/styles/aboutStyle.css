@@ -6,3 +6,53 @@
 body {
   margin: 0;
 }
+
+/* Main Container */
+.container-div {
+  background-color: black;
+  width: 100%;
+}
+
+/* Main Background */
+.opening-div {
+  background-attachment: fixed;
+  background-image: url("../images/added/CurvedSky.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;  
+}
+
+/* Content Container */
+.about-container {
+  background-color: #e0ebf0;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+}
+
+/* Main Content */
+.about-container h1 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.about-flex {
+  display: flex;
+  margin: 0 50px 50px 50px;
+}
+
+.about-img {
+  margin: 10px;
+}
+
+.about-img img {
+  max-width: 400px;
+}
+
+.about-summary {
+  align-self: center;
+  padding: 0 30px;
+  text-align: left;
+}
