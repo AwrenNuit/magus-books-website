@@ -1,0 +1,9 @@
+body {margin: 0;}
+
+.calendarDiv {
+    text-align: center;
+    height: 800px;
+}
+.calendarDiv img {
+    width: 80%;
+}
