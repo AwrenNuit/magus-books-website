@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+/* Main Container */
+.container-div {
+  background-color: black;
+  width: 100%;
+}
+
 /* Main Background */
 .opening-div {
   background-attachment: fixed;
@@ -17,6 +23,23 @@ body {
   height: 500px;  
 }
 
+/* Content Container */
+.healing-container {
+  background-color: #e0ebf0;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+}
+
+/* Temporary Closure Message */
+.healing-closed {
+  background-color: #ffe7e7;
+  border: 2px solid red;
+  text-align: center;
+  width: 75%;
+  margin: 30px auto;
+}
 
 .healing-div {
   margin: 0 auto;
@@ -39,14 +62,6 @@ body {
   margin: 0 auto;
   text-align: center;
   width: 75%;
-}
-
-.healing-closed {
-  background-color: #ffe7e7;
-  border: 2px solid red;
-  text-align: center;
-  width: 75%;
-  margin: 30px auto;
 }
 
 .table-div {
