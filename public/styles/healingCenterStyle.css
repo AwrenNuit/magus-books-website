@@ -74,6 +74,10 @@ body {
   font-weight: bold;
 }
 
+.content-flex {
+  display: flex;
+}
+
 .content-img {
   display: inline-block;
   text-align: center;
@@ -82,10 +86,6 @@ body {
 
 .content-img-container {
   margin: 50px;
-}
-
-.content-img-flex {
-  display: flex;
 }
 
 .content-summary {
