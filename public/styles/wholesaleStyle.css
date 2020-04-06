@@ -1,14 +1,73 @@
-body {margin: 0;}
+/* HTML Elements */
+* {
+  box-sizing: border-box;
+}
 
-.formDiv {
-    width: 75%;
-    margin: auto;
-    padding: 10px;
+body {
+  margin: 0;
 }
-.wholesaleForm {
-    width: 50%;
-    margin: auto;
+
+/* Main Container */
+.container-div {
+  background-color: black;
+  background-image: url("../images/added/CurvedSky.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
+
+/* Content Container */
+.wholesale-container {
+  background-color: #e0ebf0;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+}
+
+/* Main Content */
+.form-container {
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+}
+
+.form-container div {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  text-align: left;
+}
+
+.wholesale-form {
+  margin: auto;
+  width: 50%;
+}
+
 input[type=text] {
-        width: 100%;
-    }
+  width: 100%;
+}
+
+/* Buttons */
+.button {
+  background-color: #4e2074;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Forum", sans-serif;
+  font-size: 16px;
+  padding: 16px 32px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: black;
+  box-shadow: 0 0 5px grey;
+  color: #f6c83a;
+}
+
+.button:active {
+  box-shadow: 0 0 10px black;
+}
