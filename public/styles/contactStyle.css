@@ -39,3 +39,14 @@ body {
 .contact-summary {
   margin: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  
+  iframe {
+    display: none;
+  }
+
+  .contact-flex {
+    display: block;
+  }
+}
