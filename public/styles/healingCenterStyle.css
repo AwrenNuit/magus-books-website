@@ -93,6 +93,10 @@ body {
   text-align: center;
 }
 
+.content-summary-mobile {
+  display: none;
+}
+
 /* Booking Appointments */
 .appointment-container {
   border: 2px solid black;
@@ -127,4 +131,46 @@ body {
   max-width: 75%;
   overflow: hidden;
   width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* Headings */
+  .healing-heading-container {
+    width: 100%;
+  }
+
+  /* Main Content */
+  .healing-content-container {
+    margin: 0 auto;
+  }
+
+  .content-bold {
+    font-weight: bold;
+  }
+
+  .content-flex {
+    display: block;
+  }
+
+  .content-img-container {
+    margin: 20px;
+  }
+
+  .content-summary {
+    display: none;
+  }
+
+  .content-summary-mobile {
+    display: block;
+    margin: 0;
+    max-width: 400px;
+    padding: 0 20px;
+    text-align: left;
+    width: auto;
+  }
+
+  .content-summary-mobile h1 {
+    text-align: center;
+  }
 }
