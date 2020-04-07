@@ -1,7 +1,29 @@
-body, html {
-  height: 100%;
+/* HTML Elements */
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-} 
+}
+
+/* Main Container */
+.container-div {
+  background-color: black;
+  background-image: url("../images/added/CurvedSky.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Content Container */
+.calendar-container {
+  background-color: #e0ebf0;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+}
+
 .centerDiv {
   width: 75%;
   margin: auto;
@@ -9,7 +31,7 @@ body, html {
 .centerText {
   text-align: center;
 }
-leftText {
+.leftText {
   text-align: left;
 }
 .topIMG {
@@ -17,21 +39,18 @@ leftText {
 }
 .fullIMG1 {
   background-image: url("../images/added/herbs1.jpg");
-
-  height: 50%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 50%;
 }
 .fullIMG2 {
   background-image: url("../images/added/herbs2.jpg");
-
-  height: 50%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 50%;
+  width: 100%;
 }
 .programTable {
   width: 100%;
