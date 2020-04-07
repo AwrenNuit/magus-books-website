@@ -84,6 +84,16 @@ p {
 
 @media only screen and (max-width: 768px) {
 
+  /* Header */
+  #header {
+    display: inline;
+    grid-template-columns: 161px auto;
+  }
+
+  .logo-img {
+    display: none;
+  }
+
   /* Navigation Menu */
   .nav-container {
     display: none;
