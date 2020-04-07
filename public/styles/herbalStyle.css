@@ -34,17 +34,16 @@ body {
 .leftText {
   text-align: left;
 }
-.topIMG {
 
-}
-.fullIMG1 {
+/* Banner Images */
+.full-img-1 {
   background-image: url("../images/added/herbs1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50%;
 }
-.fullIMG2 {
+.full-img-2 {
   background-image: url("../images/added/herbs2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -52,14 +51,43 @@ body {
   height: 50%;
   width: 100%;
 }
-.programTable {
-  width: 100%;
+
+
+
+
+
+/* Teachers */
+.herbal-content-container {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.content-bold {
+  font-weight: bold;
+}
+
+.content-flex {
+  display: flex;
+}
+
+.content-img {
+  display: inline-block;
   text-align: center;
+  max-width: 100%;
 }
-.programTable td {
-  vertical-align: top;
-  padding: 3%;
+
+.content-img-container {
+  margin: 50px 50px 0 50px;
 }
-.tableIMG {
-  max-width:100%;
+
+.content-summary {
+  display: flex;
+  flex-direction: column;
+  margin: 0 70px;
+  text-align: left;
+  width: 400px;
+}
+
+.content-summary h2 {
+  text-align: center;
 }
