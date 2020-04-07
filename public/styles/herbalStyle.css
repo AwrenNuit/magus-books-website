@@ -17,22 +17,34 @@ body {
 }
 
 /* Content Container */
-.calendar-container {
+.herbal-container {
   background-color: #e0ebf0;
   margin: auto;
   text-align: center;
   width: 75%;
 }
 
-.centerDiv {
-  width: 75%;
-  margin: auto;
+.herbal-container h1 {
+  margin: 0;
+  padding: 30px;
 }
-.centerText {
+
+/* Paragraph Container */
+.p-container {
+  display: inline-block;
+  max-width: 600px;
+  text-align: left;
+}
+
+.p-container h2 {
   text-align: center;
 }
-.leftText {
-  text-align: left;
+
+.herbal-quote {
+  border: 0.5px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #d1e5ee;
 }
 
 /* Banner Images */
@@ -43,6 +55,7 @@ body {
   background-size: cover;
   height: 50%;
 }
+
 .full-img-2 {
   background-image: url("../images/added/herbs2.jpg");
   background-position: center;
@@ -52,9 +65,20 @@ body {
   width: 100%;
 }
 
+/* Classes */
+.herbal-class-container {
+  background-color: #d1eed3;
+  border: 2px solid black;
+  display: inline-block;
+  margin-top: 20px;
+  max-width: 600px;
+  padding: 0 20px 10px 20px;
+  text-align: left;
+}
 
-
-
+.herbal-class-container h1 {
+  text-align: center;
+}
 
 /* Teachers */
 .herbal-content-container {
@@ -72,8 +96,8 @@ body {
 
 .content-img {
   display: inline-block;
-  text-align: center;
   max-width: 100%;
+  text-align: center;
 }
 
 .content-img-container {
