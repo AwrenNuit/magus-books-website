@@ -280,3 +280,96 @@ body {
 .button:active {
   box-shadow: 0 0 10px black;
 }
+
+@media only screen and (max-width: 768px) {
+
+  /* Slider */
+  .my-slides img {
+    min-height: 200px;
+    width: 100%;
+  }
+
+  /* Monthly Features */
+  .month-main-feature {
+    display: block;
+    margin-top: 0;
+  }
+
+  .month-main-feature img {
+    padding-bottom: 0;
+    width: 300px;
+  }
+
+  .month-main-summary {
+    padding: 0 20px;
+  }
+  .month-main-summary p {
+    padding-bottom: 0;
+    text-align: left;
+  }  
+
+  .month-sub-feature {
+    display: inline-block;
+    margin: 30px 0;
+    min-width: 75%;
+    text-align: center;
+  }
+
+  .month-sub-feature-box {
+    display: block;
+  }
+
+  .month-sub-feature img {
+    width: 100px;
+  }
+
+  /* Blog */
+  .blog-div {
+    display: block;
+  }
+  
+  .blog-content {
+    padding: 20px 30px;
+  }
+  
+  .blog-img-left {
+    height: 0;
+    visibility: hidden;
+  }
+  
+  .blog-img-right {
+    height: 0;
+    visibility: hidden;
+  }
+
+  /* Services */
+  .service-div {
+    padding: 10px 60px;
+  }
+
+  .service-info-div {
+    margin: auto;
+  }
+
+  .service-grid-container {
+    display: block;
+  }
+
+  .service-img {
+    text-align: center;
+  }
+
+  .service-img img {
+    margin-top: 30px;
+    width: 200px;
+  }
+
+  .service-summary-academy, .service-summary-healing {
+    padding: 0;
+  }
+
+  .service-summary-academy h2, .service-summary-healing h2 {
+    text-align: center;
+  }
+
+}
