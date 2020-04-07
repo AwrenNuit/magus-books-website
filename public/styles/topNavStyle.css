@@ -21,6 +21,10 @@ p {
   grid-template-columns: 161px auto;
 }
 
+#header a {
+  height: 161px;
+}
+
 .logo-img {
   grid-column: 1;
   max-height: 670px;
