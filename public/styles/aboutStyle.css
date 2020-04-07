@@ -49,3 +49,16 @@ body {
   padding: 0 30px;
   text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+
+  /* Main Content */
+  .about-flex {
+    display: block;
+  }
+
+  .about-img img {
+    max-width: 200px;
+  }
+  
+}
